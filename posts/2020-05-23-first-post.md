@@ -1,6 +1,6 @@
 ---
 tags: post
-layout: layout.html
+layout: post.html
 title: First post
 ---
 First post in the demo site
