@@ -8,4 +8,8 @@ module.exports = function(eleventyConfig) {
 
     // If we use Netlify and has the _redirects file.
     eleventyConfig.addPassthroughCopy("_redirects");
+    
+    eleventyConfig.addCollection("lastThreeTasks", function(collection) {
+    return collection.getFilteredByTag('').slice().reverse().slice(0, 3)
+  });
 }
