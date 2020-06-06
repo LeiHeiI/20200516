@@ -5,6 +5,8 @@ layout: layout.html
 
 <h2> Latest blog post </h2>
 
+<p>My latest post is {% lastPostTitle collections.post %}.</p>
+
 <ul>
 {%- for post in collections.post reversed -%}
   <li>
