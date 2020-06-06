@@ -10,7 +10,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("_redirects");
     
     eleventyConfig.addCollection("lastThreeTasks", function(collection) {
-    return collection.getFilteredByTag('').slice().reverse().slice(0, 3)
+    return collection.getFilteredByTag('posts').slice().reverse().slice(0, 3)
   });
      eleventyConfig.addShortcode("lastPostTitle", function(collection) {
     return collection[collection.length-1].data.title
