@@ -1,9 +1,9 @@
 ---
 tags: post
 layout: post-layout.html
-title: First post
-date: 2020-05-23
+title: Second post
+date: 2020-06-06
 ---
-First post in the demo site
+Second post in the demo site with image
 
 content content content
