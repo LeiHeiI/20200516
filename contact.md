@@ -21,4 +21,3 @@ layout: layout.html
   <input type="submit" value="Send Form">
 </form>
 
-[Back to home](http://sad-mccarthy-a61d59.netlify.app/)
