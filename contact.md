@@ -1,7 +1,8 @@
 ---
 layout: layout.html
 ---
-<form action="https://example.com" method="post">
+# Contact us
+<form data-netlify="true" method="post">
   <p>
     <label>Name:
       <input type="text" name="name">
