@@ -16,5 +16,6 @@ layout: layout.html
     <label for="content">Content:</label>
     <input type="content" id="content" name="content">    
   </p>
+  <input type="hidden" name="_next" value="https://sad-mccarthy-a61d59.netlify.app/thanks">
   <input type="submit" value="Send Form">
 </form>
