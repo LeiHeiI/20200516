@@ -3,7 +3,7 @@ layout: layout.html
 ---
 # Contact us
 
-<form action="https://formsubmit.co/hilei0716@gmail.com" method="post">
+<form action="https://formsubmit.co/a3722e7bf31ae37b6c83ca928101b480" method="post">
   <p>
     <label>Name:
       <input type="text" name="name">
