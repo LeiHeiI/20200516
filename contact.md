@@ -2,7 +2,8 @@
 layout: layout.html
 ---
 # Contact us
-<form data-netlify="true" method="post">
+
+<form action="https://formsubmit.co/hilei0716@gmail.com" method="post">
   <p>
     <label>Name:
       <input type="text" name="name">
