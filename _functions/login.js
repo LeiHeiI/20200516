@@ -9,10 +9,10 @@ exports.handler = (event, context, callback) => {
   console.log("---Form Data---");
   console.log(event.body)
 
-  result = "/"
+  let result = "/"
 
   if (event.body == "accesscode=demo") {
-    result = "/super-long-url-here-to-hide-the-gated-content/"
+    result = "/super-long-url-here/"
   }
 
   callback(null, {
