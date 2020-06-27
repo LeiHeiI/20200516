@@ -15,6 +15,6 @@ document.getElementById("login").addEventListener("submit", function(event) {
   .then(response => response.text())
   .then(data => console.log=data);
   event.preventDefault();
-});
+};
 
 </script>
